@@ -7,10 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Main testOne = new Main();
-
-
 
         LinkedList<Students> list1 = testOne.createMilionLinkedList();
         ArrayList<Students> list2 = testOne.createMilionArrayList();
@@ -20,9 +17,6 @@ public class Main {
         long s1End = System.currentTimeMillis();
 
         System.out.println(person.getName() + ": " + person.getAge());
-
-
-
 
         long s2Start = System.currentTimeMillis();
         Students people = list2.get(500000);
@@ -34,7 +28,6 @@ public class Main {
 
     }
 
-
     //EXAMPLE BY LINKEDLIST
     public LinkedList<Students> createMilionLinkedList(){
 
@@ -45,7 +38,6 @@ public class Main {
         }
         return exampleByList;
     }
-
 
     //EXAMPLE BY ARRAYLIST
     public ArrayList<Students> createMilionArrayList(){
