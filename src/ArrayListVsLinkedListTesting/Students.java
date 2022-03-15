@@ -1,8 +1,8 @@
 package ArrayListVsLinkedListTesting;
 
 public class Students {
-    Students(){
 
+    Students(){
         getAge();
         getName();
     }
